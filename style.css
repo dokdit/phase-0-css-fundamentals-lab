@@ -3,3 +3,35 @@ body {
   height: 100%;
   margin: 0;
 }
+/*Aligns all text to centre as require by the website*/
+* {
+  text-align: center;
+}
+
+figure > img {
+  position: center;
+}
+figure > figcaption{
+  font-size: small;
+}
+
+nav >a{
+  padding: 10px;
+  background-color: grey;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+}
+
+#details{
+  width: 100%;
+}
+
+div{
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  background-color: red;
+}
